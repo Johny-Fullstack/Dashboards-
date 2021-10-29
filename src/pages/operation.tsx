@@ -4,7 +4,7 @@ import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import Modal from "react-modal";
 import dynamic from 'next/dynamic';
-import Graphic from "../components/Graphic";
+import Graphic from "../components/Graphic/Graphic";
 
 
 const Chart = dynamic(() => import('react-apexcharts'), {
