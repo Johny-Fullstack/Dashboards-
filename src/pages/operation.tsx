@@ -247,7 +247,7 @@ export default function Business() {
               >
               <Graphic/>  
             </Modal>
-                                {/*capacitação ( Qtd Funcis )*/}
+                                {/*Base Cotistas ( % )*/}
           <Box onClick={handleOpenNewTransectionModal}
             cursor="pointer"
             p={["6", "8"]}
@@ -255,7 +255,7 @@ export default function Business() {
             borderRadius={8}
             pb="4"
           >
-            <Text fontSize="xl" fontWeight="bold" mb="4" color="secondary.900">capacitação ( Qtd Funcis )</Text>
+            <Text fontSize="xl" fontWeight="bold" mb="4" color="secondary.900">Base Cotistas ( % )</Text>
             <Text fontSize="sm" fontWeight="bold" mb="2" color="gray.600">Orçado: R$ 1.400,00</Text>
             <Text fontSize="sm" fontWeight="bold" mb="2" color="gray.600">Realizado: R$ 1.050,00</Text>
             <Chart options={state.options} series={state.series} type="radialBar" height={260} />

@@ -95,7 +95,6 @@ export default function Graphic() {
               pb="3"
             >
               <Text fontSize="lg" fontWeight="bold" textAlign="center" mb="4" color="secondary.900">Gráfico Mensal</Text>
-             
               <Chart options={options} series={series} type="area" height={160}/>
             </Box>
       </SimpleGrid>

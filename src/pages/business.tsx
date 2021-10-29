@@ -131,7 +131,7 @@ export default function Business() {
               <Graphic/>  
             </Modal>
                                 {/* Lucro Liquido ( R$ Millhões ) */}
-          <Box onClick={handleOpenNewTransectionModal}
+          {/*<Box onClick={handleOpenNewTransectionModal}
             cursor="pointer"
             p={["6", "8"]}
             bg="gray.50"
